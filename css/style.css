@@ -34,14 +34,15 @@ img {
 
 .nav{ display: flex;
       align-items: center;
-        padding: 24px 0 24px;
-        padding-bottom: 24px;
+        
       
 
 }
 
 .ul-header { display: flex;
              gap: 40px;
+             padding: 24px 0;
+             padding-bottom: 24px;
              
 }
 
@@ -63,7 +64,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    
     margin-right: 76px
 }
 
