@@ -241,7 +241,7 @@ padding-bottom: 32px;}
 .our-portfolio-ul{ display: flex;
                    flex-wrap: wrap;
                    gap:24px;}
-
+.our-portfolio-li{margin-bottom: 48px;}
 .our-portfolio{
         font-weight: 700;
         font-size: 36px;
@@ -259,6 +259,7 @@ padding-bottom: 32px;}
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px
 }
 
 .our-portfolio-text{
