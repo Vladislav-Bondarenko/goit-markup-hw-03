@@ -33,12 +33,14 @@ img {
 }
 
 .nav{ display: flex;
-align-items: center;
-gap: 76px;
+      align-items: center;
+
 }
 
 .ul-header { display: flex;
              gap: 40px;
+             padding: 24px 0 24px;
+             padding-bottom: 24px;
 }
 
 a {
@@ -61,7 +63,7 @@ ul {
     color: #4d5ae5;
     padding-top: 24px;
     padding-bottom: 24px;
-
+    margin-right: 76px
 }
 
 .dark{color: #2e2f42;}
@@ -81,8 +83,8 @@ ul {
     color: #404bbf;}
 
 .address{font-style: normal;
-    padding-top: 24px;
-        padding-bottom: 24px;
+         padding-top: 24px;
+         padding-bottom: 24px;
 }
 
 .ul-address{ display: flex;
@@ -141,6 +143,9 @@ ul {
 .section-one-buttom:hover,
 .section-one-buttom:focus{background-color:#404bbf;}
 
+.section-two{padding: 120px 0 120px; padding-bottom: 120px;
+}
+
 .section-two-ul{ display: flex;
                  padding-top: 120px;
                  padding-bottom: 120px;
@@ -149,6 +154,19 @@ ul {
 
 .section-two-ul .section-two-li{flex-basis: calc((100% - 72px) / 4);
 
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .section-two-h{
