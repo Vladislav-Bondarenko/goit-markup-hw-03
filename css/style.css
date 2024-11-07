@@ -204,11 +204,14 @@ ul {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-bottom: 72px;}
+    margin-bottom: 72px;}
 
-.our-team-li{background-color:#FFF;}
+.our-team-li{background-color:#FFF;
+             border-radius: 0px 0px 4px 4px;}
+
 .our-team-li .section-two-h{ text-align: center;
                              margin-top: 32px;}
+                             
 .our-team-Name{
     font-weight: 500;
     font-size: 20px;
